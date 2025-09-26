@@ -12,6 +12,7 @@ def read_item(item_id: int, q: str = None):
     """Endpoint для получения информации о item по ID."""
     return {"item_id": item_id, "q": q}
 
+jkjknklnklnk
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="localhost", port=8000)
